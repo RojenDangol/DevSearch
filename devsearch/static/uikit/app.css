@@ -102,3 +102,10 @@ pre.codeblock {
   text-align: center;
   background: var(--color-main);
 }
+
+
+/* Fade-out animation class */
+.alert.fade-out {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
